@@ -1,0 +1,31 @@
+name: fun_flutter_scaffold
+description: A new Flutter package for use provider and dio and pull_to_refresh
+version: 0.0.1
+author: phoenixsky <moran.fc@gmail.com>
+homepage: https://github.com/phoenixsky
+
+environment:
+  sdk: ">=2.3.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^3.1.0
+  # 网络
+  dio: ^3.0.3
+  # 下拉刷新
+  pull_to_refresh: ^1.5.7
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  fonts:
+    - family: ViewStateIcons
+      fonts:
+        - asset: assets/fonts/viewStateIconFont.ttf
+
